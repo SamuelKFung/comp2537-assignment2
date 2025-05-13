@@ -1,0 +1,6 @@
+<%- include("templates/header") %>
+    <% for(i=0; i < errorMessages.length; i++) { %>
+        <div><%= errorMessages[i] %></div>
+    <% } %>
+    <a href="/signup">Try again</a>
+<%- include("templates/footer") %>

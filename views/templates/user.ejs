@@ -1,0 +1,13 @@
+<li>    
+    <div class="d-flex gap-2 mt-2">
+        <%= user.name + " (" + user.user_type + ")" %>
+        <form action="/update-role/admin" method="POST" class="m-0">
+            <input type="hidden" name="username" value="<%= user.name %>">
+            <button type="submit" class="btn btn-success rounded-20">Promote to Admin</button>
+        </form>
+        <form action="/update-role/user" method="POST" class="m-0">
+            <input type="hidden" name="username" value="<%= user.name %>">
+            <button type="submit" class="btn btn-danger rounded-20">Demote to User</button>
+        </form>
+    </div>
+</li>
