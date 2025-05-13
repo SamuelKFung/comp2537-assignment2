@@ -2,7 +2,7 @@ Self-graded Assignment 2 Checklist
 Name: Samuel Fung  
 Set: 2C  
     Criteria	
-    ========
+    ========  
 [x]  The /admin page redirects to the /login page if not logged in.  
 [x]  The /admin page shows an error message if logged in, but not an admin  
 [x]  The /admin page shows a list of all users  
