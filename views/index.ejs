@@ -1,10 +1,10 @@
 <%- include("templates/header") %>
     <% if (!username) { %>
-        <a href='/signup' class="btn btn-success"><button>Sign up</button></a><br>
-        <a href='/login' class="btn btn-secondary"><button>Log in</button></a>
+        <a href='/signup' class="btn btn-success">Sign up</a><br>
+        <a href='/login' class="btn btn-secondary">Log in</a>
     <% } else { %>
         Hello, <%= username %>!<br>
-        <a href='/members' class="btn btn-primary"><button>Go to Members Area</button></a><br>
-        <a href='/logout' class="btn btn-danger"><button>Logout</button></a>
+        <a href='/members' class="btn btn-primary">Go to Members Area</a><br>
+        <a href='/logout' class="btn btn-danger">Logout</a>
     <% } %>
 <%- include("templates/footer") %>
